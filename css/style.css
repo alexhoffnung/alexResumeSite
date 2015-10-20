@@ -76,6 +76,7 @@
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
+    min-width: 150px;
     min-height: auto;
     background-color: #FF8080;
     margin: 0px 10px 10px 10px;
@@ -98,7 +99,8 @@
     order: 8;
     flex: 0 1 auto;
     align-self: auto;
-    min-width: 20%;
+    max-width: 20%;
+    min-width: 125px;
     min-height: auto;
     background-color: #00BCD4;
     margin: 0px 10px 10px 10px;
@@ -110,6 +112,7 @@
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
+    min-width: 150px;
     min-height: auto;
     background-color: #9C27B0;
     margin: 0px 10px 10px 10px;
@@ -138,6 +141,8 @@ div.list div {
 
 div.list h1 {
     font-weight: 300;
+    background-color: white;
+    padding: 5px;
 }
 
 div.list h3 {
