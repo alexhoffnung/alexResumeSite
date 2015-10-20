@@ -1,0 +1,124 @@
+/* All style should go in this document. */
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    line-height: 1.3em;
+    background-image: url("../images/background.jpg");
+    background-size: 350px 300px;
+}
+
+.box div.name {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: auto;
+    max-width: 100%;
+    min-height: auto;
+    background-color: orange;
+    margin: 0px 0px 10px 0px;
+    padding: 3px 3px 3px 3px;
+}
+
+.box div.education {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: auto;
+    max-width: 20%;
+    min-width: 150px;
+    min-height: auto;
+    background-color: #47D147;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.box div.research {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: auto;
+    max-width: 20%;
+    min-width: 150px;
+    min-height: auto;
+    background-color: #00FFFF;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.box div.work {
+    order: 4;
+    flex: 0 1 auto;
+    align-self: auto;
+    max-width: 20%;
+    min-width: 150px;
+    min-height: auto;
+    background-color: yellow;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.box div.teaching {
+    order: 5;
+    flex: 0 1 auto;
+    align-self: auto;
+    max-width: 20%;
+    min-width: 150px;
+    min-height: auto;
+    background-color: red;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.box div.grants {
+    order: 6;
+    flex: 0 1 auto;
+    align-self: auto;
+    max-width: 25%;
+    min-height: auto;
+    background-color: #FF8080;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.box div.publications {
+    order: 7;
+    flex: 0 1 auto;
+    align-self: auto;
+    max-width: 25%;
+    min-width: 175px;
+    min-height: auto;
+    background-color: #AD855C;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.box div.contact {
+    order: 8;
+    flex: 0 1 auto;
+    align-self: auto;
+    min-width: 97%;
+    min-height: auto;
+    background-color: #CCCCFF;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+div.paper {
+    padding-bottom: 1em;
+}
+
+div.list div {
+    margin-bottom: 0.7em;
+}
+
+div.list h1 {
+    font-weight: 300;
+}
+
+div.list h3 {
+    font-weight: 100;
+    margin-bottom: 0.4em;
+}
