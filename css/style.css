@@ -183,6 +183,9 @@ div.menubar {
     text-align: center;
 }
 
+/**************************
+*    Technology Boxes
+***************************/
 
 div.technologyBox {
     min-width: 100%;
@@ -191,14 +194,55 @@ div.technologyBox {
     border-bottom: 1pt solid black;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
+    justify-content: auto;
+    align-content: left;
+    align-items: left;
     line-height: 1.3em;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.technologyBox div.menu {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: stretch;
+    max-width: 200px;
+    height: 90px;
+    min-height: auto;
+    margin: 0px 80px 10px 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+.technologyBox div.htmlcss {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 120px;
+    height: 90px;
+    min-height: auto;
+    background-image: url("../images/htmlcss.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 0px 40px 10px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 
-
+.technologyBox div.latex {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 120px;
+    height: 60px;
+    min-height: auto;
+    background-image: url("../images/latex.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 0px 40px 10px 10px;
+    padding: 0px 10px 0px 10px;
+}
 
 /**************************
 *    Background
@@ -261,7 +305,7 @@ div.list h3 {
     border: 2px solid rgba(33, 68, 72, 0.59);
      
     /*Text Styles*/
-    color: rgba(0, 0, 0, 0.55);
+    color: rgba(255, 255, 255, 0.85);
     text-align: center;
     font: bold 1.2em/33px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
      
@@ -284,6 +328,7 @@ a.button {
 
 .technologyBox {
     font-family: "Royal Quiet Deluxe";
+    font-size: 18pt;
 }
 
 @font-face {
