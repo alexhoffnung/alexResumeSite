@@ -207,14 +207,28 @@ div.technologyBox {
     flex: 0 1 auto;
     align-self: stretch;
     max-width: 200px;
-    height: 90px;
     min-height: auto;
     margin: 0px 80px 10px 10px;
     padding: 0px 0px 0px 10px;
 }
 
-.technologyBox div.htmlcss {
+.technologyBox div.badges {
     order: 2;
+    flex: 0 1 auto;
+    align-self: stretch;
+    max-width: auto;
+    min-height: 65%;
+    margin: 20px 40px 10px 40px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: auto;
+    align-content: left;
+    align-items: left;
+}
+
+div.badges div.htmlcss {
+    order: 1;
     flex: 0 1 auto;
     align-self: auto;
     width: 120px;
@@ -224,13 +238,13 @@ div.technologyBox {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
-    margin: 0px 40px 10px 10px;
+    margin: 30px 40px 10px 40px;
     padding: 0px 10px 0px 10px;
 }
 
 
-.technologyBox div.latex {
-    order: 3;
+div.badges div.latex {
+    order: 2;
     flex: 0 1 auto;
     align-self: auto;
     width: 120px;
@@ -240,7 +254,22 @@ div.technologyBox {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
-    margin: 0px 40px 10px 10px;
+    margin: 30px 40px 10px 40px;
+    padding: 0px 10px 0px 10px;
+}
+
+div.badges div.git {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 120px;
+    height: 60px;
+    min-height: auto;
+    background-image: url("../images/git.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 30px 40px 10px 40px;
     padding: 0px 10px 0px 10px;
 }
 
