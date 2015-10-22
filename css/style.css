@@ -303,6 +303,21 @@ div.badges div.c {
     padding: 0px 10px 0px 10px;
 }
 
+div.badges div.lexyacc {
+    order: 6;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 170px;
+    height: 150px;
+    min-height: auto;
+    background-image: url("../images/lexyacc.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 30px 40px 10px 40px;
+    padding: 0px 10px 0px 10px;
+}
+
 
 /**************************
 *    Current
