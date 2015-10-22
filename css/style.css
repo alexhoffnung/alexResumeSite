@@ -277,3 +277,16 @@ div.list h3 {
 a.button {
     text-decoration: none;
 }
+
+/**************************
+*    Fonts
+***************************/
+
+.technologyBox {
+    font-family: "Royal Quiet Deluxe";
+}
+
+@font-face {
+  src: url(RoyalQuietDeluxe.ttf);
+  font-weight: bold;
+}
