@@ -71,7 +71,7 @@ div.menubar {
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
-    min-width: 150px;
+    min-width: 210px;
     min-height: auto;
     background-color: #47D147;
     margin: 0px 10px 10px 10px;
@@ -83,7 +83,7 @@ div.menubar {
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
-    min-width: 150px;
+    min-width: 200px;
     min-height: auto;
     background-color: #00FFFF;
     margin: 0px 10px 10px 10px;
@@ -107,7 +107,7 @@ div.menubar {
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
-    min-width: 150px;
+    min-width: 200px;
     min-height: auto;
     background-color: red;
     margin: 0px 10px 10px 10px;
@@ -120,7 +120,7 @@ div.menubar {
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
-    min-width: 150px;
+    min-width: 160px;
     min-height: auto;
     background-color: #FF8080;
     margin: 0px 10px 10px 10px;
@@ -132,7 +132,7 @@ div.menubar {
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
-    min-width: 175px;
+    min-width: 235px;
     min-height: auto;
     background-color: #AD855C;
     margin: 0px 10px 10px 10px;
@@ -144,7 +144,7 @@ div.menubar {
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
-    min-width: 125px;
+    min-width: 170px;
     min-height: auto;
     background-color: #836D91;
     margin: 0px 10px 10px 10px;
@@ -160,7 +160,7 @@ div.menubar {
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
-    min-width: 150px;
+    min-width: 200px;
     min-height: auto;
     background-color: #6C95B5;
     margin: 0px 10px 10px 10px;
@@ -247,7 +247,7 @@ div.badges div.latex {
     order: 2;
     flex: 0 1 auto;
     align-self: auto;
-    width: 120px;
+    width: 140px;
     height: 60px;
     min-height: auto;
     background-image: url("../images/latex.png");
@@ -262,7 +262,7 @@ div.badges div.git {
     order: 3;
     flex: 0 1 auto;
     align-self: auto;
-    width: 120px;
+    width: 140px;
     height: 60px;
     min-height: auto;
     background-image: url("../images/git.png");
@@ -277,8 +277,8 @@ div.badges div.swift {
     order: 4;
     flex: 0 1 auto;
     align-self: auto;
-    width: 100px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     min-height: auto;
     background-image: url("../images/swift.png");
     background-size: cover;
@@ -292,7 +292,7 @@ div.badges div.c {
     order: 5;
     flex: 0 1 auto;
     align-self: auto;
-    width: 200px;
+    width: 220px;
     height: 120px;
     min-height: auto;
     background-image: url("../images/c.jpg");
