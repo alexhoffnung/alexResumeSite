@@ -13,22 +13,19 @@
     line-height: 1.3em;
     background-image: url("../images/background.jpg");
     background-size: 350px 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /**************************
 *    Menu Boxes
 ***************************/
 
-.box div.menubar {
-    order: 1;
-    flex: 0 1 auto;
-    align-self: auto;
+div.menubar {
     min-width: 100%;
     min-height: 3em;
     background-color: white;
     border-bottom: 1pt solid black;
-    margin: 0px 0px 10px 0px;
-    padding: 3px 3px 3px 3px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -44,7 +41,6 @@
     align-self: auto;
     min-width: 15%;
     min-height: auto;
-    background-color: white;
     margin: 0px 0px 10px 0px;
     padding: 3px 3px 3px 3px;
 }
@@ -55,7 +51,6 @@
     align-self: auto;
     min-width: 15%;
     min-height: auto;
-    background-color: white;
     margin: 0px 0px 10px 0px;
     padding: 3px 3px 3px 3px;
 }
@@ -198,6 +193,15 @@ div#mountain {
     background-repeat: no-repeat;
     background-position-y: center;
     min-height: 100vh;
+    border: 1pt solid black;
+}
+
+div#mountainThin {
+    background-image: url("../images/mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    min-height: 100px;
     border: 1pt solid black;
 }
 
