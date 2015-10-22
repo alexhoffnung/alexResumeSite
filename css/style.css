@@ -273,6 +273,77 @@ div.badges div.git {
     padding: 0px 10px 0px 10px;
 }
 
+div.badges div.swift {
+    order: 4;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 100px;
+    height: 120px;
+    min-height: auto;
+    background-image: url("../images/swift.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 30px 40px 10px 40px;
+    padding: 0px 10px 0px 10px;
+}
+
+div.badges div.c {
+    order: 5;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 200px;
+    height: 120px;
+    min-height: auto;
+    background-image: url("../images/c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin: 30px 40px 10px 40px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/**************************
+*    Current
+***************************/
+
+
+div.current {
+    min-width: 80%;
+    min-height: 3em;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: auto;
+    align-content: center;
+    align-items: center;
+    line-height: 1.3em;
+    margin-left: 10%;
+}
+
+div.current p {
+    padding: 0 20px 0 40px;
+}
+
+div#a100 {
+    background-image: url("../images/a100.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 250px;
+    width: 250px;
+}
+
+div#agile {
+    background-image: url("../images/agile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 250px;
+    width: 250px;
+}
+
 /**************************
 *    Background
 ***************************/
@@ -360,7 +431,18 @@ a.button {
     font-size: 18pt;
 }
 
+.current {
+    font-family: "Royal Quiet Deluxe";
+    font-size: 18pt;
+}
+
 @font-face {
   src: url(RoyalQuietDeluxe.ttf);
   font-weight: bold;
 }
+
+@font-face {
+    src: url(Raleway-Thin.ttf);
+}
+
+
