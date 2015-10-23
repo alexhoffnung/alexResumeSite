@@ -56,6 +56,16 @@ div.menubar {
     padding: 3px 3px 3px 3px;
 }
 
+.menubar div.menubox3 {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: auto;
+    min-width: 15%;
+    min-height: auto;
+    margin: 0px 0px 10px 0px;
+    padding: 3px 3px 3px 3px;
+}
+
 .box div.name {
     min-width: 100%;
     min-height: auto;
@@ -64,7 +74,7 @@ div.menubar {
 }
 
 .box div.education {
-    order: 3;
+    order: 1;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
@@ -76,7 +86,7 @@ div.menubar {
 }
 
 .box div.research {
-    order: 4;
+    order: 2;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
@@ -88,7 +98,7 @@ div.menubar {
 }
 
 .box div.work {
-    order: 5;
+    order: 3;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
@@ -100,7 +110,7 @@ div.menubar {
 }
 
 .box div.teaching {
-    order: 6;
+    order: 4;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
@@ -113,7 +123,7 @@ div.menubar {
 
 
 .box div.grants {
-    order: 7;
+    order: 5;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
@@ -125,7 +135,7 @@ div.menubar {
 }
 
 .box div.publications {
-    order: 8;
+    order: 6;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
@@ -137,7 +147,7 @@ div.menubar {
 }
 
 .box div.referee {
-    order: 9;
+    order: 7;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 20%;
@@ -153,7 +163,7 @@ div.menubar {
 }
 
 .box div.meetings {
-    order: 10;
+    order: 8;
     flex: 0 1 auto;
     align-self: auto;
     max-width: 25%;
@@ -169,7 +179,7 @@ div.menubar {
 }
 
 .box div.contact {
-    order: 11;
+    order: 9 ;
     flex: 0 1 auto;
     align-self: auto;
     min-width: 97%;
@@ -338,6 +348,10 @@ div.current p {
     padding: 20px 20px 0px 40px;
 }
 
+div.current p:first-child {
+    padding-top: 150px;
+}
+
 div#a100 {
     background-image: url("../images/a100.png");
     background-size: cover;
@@ -440,7 +454,7 @@ a.button {
 
 .technologyBox, .current {
     font-family: "Royal Quiet Deluxe";
-    font-size: 18pt;
+    font-size: 26pt;
 }
 
 .name {
