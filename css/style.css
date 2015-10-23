@@ -66,6 +66,35 @@ div.menubar {
     padding: 3px 3px 3px 3px;
 }
 
+.menubar div.menubox4 {
+    order: 4;
+    flex: 0 1 auto;
+    align-self: auto;
+    min-width: 15%;
+    min-height: auto;
+    margin: 0px 0px 10px 0px;
+    padding: 3px 3px 3px 3px;
+}
+
+.menubar div.menubox5 {
+    order: 5;
+    flex: 0 1 auto;
+    align-self: auto;
+    min-width: 15%;
+    min-height: auto;
+    margin: 0px 0px 10px 0px;
+    padding: 3px 3px 3px 3px;
+}
+
+img#reverse {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
 .box div.name {
     min-width: 100%;
     min-height: auto;
@@ -185,7 +214,7 @@ div.menubar {
 
 div#contact {
     text-align: center;
-    background-color: yellow;
+    background-color: #2CB2D2;
 }
 
 /**************************
@@ -347,7 +376,7 @@ div.current p {
 }
 
 div.current p:first-child {
-    padding-top: 150px;
+    padding-top: 225px;
 }
 
 div#a100 {
@@ -423,27 +452,28 @@ div.list h3 {
      
     /*Basic Button Styles*/
     display: block;
-    height: 30px;
+    height: 40px;
     width: 230px;
-    background: #34696f;
+    background: #2CB2D2;
     border: 2px solid rgba(33, 68, 72, 0.59);
      
     /*Text Styles*/
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(0, 0, 0, 0.85);
     text-align: center;
     font: bold 1.2em/33px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
      
     /*Fancy CSS3 Styles*/
-    background: linear-gradient(top, #34696f, #2f5f63);
+    background: linear-gradient(top, #FFFF2F, #FFA92F);
     border-radius: 25px;
-    box-shadow: 0 8px 0 #1b383b;
-    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 0 #00FFFF;
+    text-shadow: 0 2px 2px rgba(255, 169, 47, 0.2);
      
 }
  
 /*Link Styling*/
 a.button {
     text-decoration: none;
+    padding-top: 0.2em;
 }
 
 /**************************
@@ -469,4 +499,13 @@ a.button {
     src: url(Sketchy.ttf);
 }
 
+/**************************
+*    Responsive
+***************************/
+
+@media screen and (max-width: 1000px) {
+    #reverse, #forward {
+        display: none;
+    }
+}
 
