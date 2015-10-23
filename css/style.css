@@ -178,16 +178,14 @@ div.menubar {
     background-color: #FFE391;
 }
 
-.box div.contact {
-    order: 9 ;
-    flex: 0 1 auto;
-    align-self: auto;
-    min-width: 97%;
-    min-height: auto;
-    background-color: orange;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+
+/**************************
+*    Contact
+***************************/
+
+div#contact {
     text-align: center;
+    background-color: yellow;
 }
 
 /**************************
