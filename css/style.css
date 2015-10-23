@@ -106,8 +106,7 @@ img#reverse {
     order: 1;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 20%;
-    min-width: 210px;
+    width: 300px;
     min-height: auto;
     background-color: #5AED2C;
     margin: 0px 10px 10px 10px;
@@ -122,8 +121,7 @@ img#reverse {
     order: 2;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 20%;
-    min-width: 200px;
+    width: 300px;
     min-height: auto;
     background-color: #00FFFF;
     margin: 0px 10px 10px 10px;
@@ -134,8 +132,7 @@ img#reverse {
     order: 3;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 20%;
-    min-width: 150px;
+    width: 300px;
     min-height: auto;
     background-color: yellow;
     margin: 0px 10px 10px 10px;
@@ -146,8 +143,7 @@ img#reverse {
     order: 4;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 20%;
-    min-width: 200px;
+    width: 300px;
     min-height: auto;
     background-color: red;
     margin: 0px 10px 10px 10px;
@@ -159,8 +155,7 @@ img#reverse {
     order: 5;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 25%;
-    min-width: 160px;
+    width: 300px;
     min-height: auto;
     background-color: #FF8080;
     margin: 0px 10px 10px 10px;
@@ -171,8 +166,7 @@ img#reverse {
     order: 6;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 25%;
-    min-width: 235px;
+    width: 300px;
     min-height: auto;
     background-color: #AD855C;
     margin: 0px 10px 10px 10px;
@@ -183,8 +177,7 @@ img#reverse {
     order: 7;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 20%;
-    min-width: 170px;
+    width: 300px;
     min-height: auto;
     background-color: #836D91;
     margin: 0px 10px 10px 10px;
@@ -199,8 +192,7 @@ img#reverse {
     order: 8;
     flex: 0 1 auto;
     align-self: auto;
-    max-width: 25%;
-    min-width: 200px;
+    width: 300px;
     min-height: auto;
     background-color: #6C95B5;
     margin: 0px 10px 10px 10px;
