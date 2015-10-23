@@ -56,14 +56,10 @@ div.menubar {
 }
 
 .box div.name {
-    order: 2;
-    flex: 0 1 auto;
-    align-self: auto;
-    max-width: 100%;
+    min-width: 100%;
     min-height: auto;
-    background-color: orange;
-    margin: 0px 0px 10px 0px;
-    padding: 3px 3px 3px 3px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .box div.education {
@@ -441,14 +437,14 @@ a.button {
 *    Fonts
 ***************************/
 
-.technologyBox {
+.technologyBox, .current {
     font-family: "Royal Quiet Deluxe";
     font-size: 18pt;
 }
 
-.current {
-    font-family: "Royal Quiet Deluxe";
-    font-size: 18pt;
+.name {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40pt;
 }
 
 @font-face {
@@ -457,7 +453,7 @@ a.button {
 }
 
 @font-face {
-    src: url(Raleway-Thin.ttf);
+    src: url(Sketchy.ttf);
 }
 
 
