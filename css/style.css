@@ -109,9 +109,13 @@ img#reverse {
     max-width: 20%;
     min-width: 210px;
     min-height: auto;
-    background-color: #47D147;
+    background-color: #5AED2C;
     margin: 0px 10px 10px 10px;
     padding: 0px 10px 0px 10px;
+}
+
+.education div.list h1 {
+    background-color: #34696f;
 }
 
 .box div.research {
