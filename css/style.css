@@ -213,10 +213,69 @@ img#reverse {
 *    Contact
 ***************************/
 
-div#contact {
+.contact {
     text-align: center;
     background-color: #2CB2D2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 400px;
 }
+
+.contact div.linkedin {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/linkedin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 80px 20px 80px;
+}
+
+.contact div.email {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 270px;
+    margin: 0 20px 0 20px;
+    font-size: 27pt; 
+}
+
+.contact div.github {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 200px;
+    height: 100px;
+    background-image: url("../images/github.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 80px 20px 80px;
+}
+
+.linkedin a#box-link { 
+    position: absolute; 
+    width: 100px; 
+    height: 100px;
+    left: 80px; 
+    background-color: transparent; 
+    border: 1px solid yellow; 
+} 
+
+.github a#box-link { 
+    position: absolute; 
+    width: 200px; 
+    height: 100px;
+    left: 80px; 
+    background-color: transparent; 
+    border: 1px solid yellow; 
+} 
 
 /**************************
 *    Technology Boxes
@@ -507,6 +566,10 @@ a.button {
 @media screen and (max-width: 1000px) {
     #reverse, #forward {
         display: none;
+    }
+
+    .contact div.email {
+        font-size: 20pt;
     }
 }
 
