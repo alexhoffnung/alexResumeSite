@@ -37,8 +37,7 @@ div.menubar {
 }
 
 
-.menubar div.menubox1 {
-    order: 1;
+.menubar div.menubox {
     flex: 0 1 auto;
     align-self: auto;
     min-width: 15%;
