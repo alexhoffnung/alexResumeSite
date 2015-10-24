@@ -265,16 +265,15 @@ img#reverse {
     height: 100px;
     left: 80px; 
     background-color: transparent; 
-    border: 1px solid yellow; 
 } 
 
 .github a#box-link { 
     position: absolute; 
     width: 200px; 
     height: 100px;
-    left: 80px; 
+    right: 80px; 
     background-color: transparent; 
-    border: 1px solid yellow; 
+    align-self: right;
 } 
 
 /**************************
@@ -570,6 +569,10 @@ a.button {
 
     .contact div.email {
         font-size: 20pt;
+    }
+
+    .github a#box-link {
+        left: 80px;
     }
 }
 
