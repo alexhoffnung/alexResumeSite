@@ -15,6 +15,7 @@
     background-size: 350px 300px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 /**************************
@@ -137,6 +138,10 @@ img#reverse {
     background-color: yellow;
     margin: 0px 10px 10px 10px;
     padding: 0px 10px 0px 10px;
+}
+
+#record {
+    margin-left: 60px;
 }
 
 .box div.teaching {
