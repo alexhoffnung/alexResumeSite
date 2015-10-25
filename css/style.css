@@ -114,7 +114,7 @@ img#reverse {
 }
 
 .education div.list h1 {
-    background-color: #34696f;
+    background-color: white;
 }
 
 .box div.research {
@@ -123,9 +123,13 @@ img#reverse {
     align-self: auto;
     width: 300px;
     min-height: auto;
-    background-color: #00FFFF;
+    background-color: #98dafc;
     margin: 0px 10px 10px 10px;
     padding: 0px 10px 0px 10px;
+}
+
+.research div.list h1 {
+    background-color: #daad86;
 }
 
 .box div.work {
@@ -149,9 +153,13 @@ img#reverse {
     align-self: auto;
     width: 300px;
     min-height: auto;
-    background-color: red;
+    background-color: #9fa8a3;
     margin: 0px 10px 10px 10px;
     padding: 0px 10px 0px 10px;
+}
+
+.teaching div.list h1 {
+    background-color: #c5d5cb;
 }
 
 
@@ -161,9 +169,13 @@ img#reverse {
     align-self: auto;
     width: 300px;
     min-height: auto;
-    background-color: #FF8080;
+    background-color: #fae596;
     margin: 0px 10px 10px 10px;
     padding: 0px 10px 0px 10px;
+}
+
+.grants div.list h1 {
+    background-color: #3fb0ac;
 }
 
 .box div.publications {
@@ -189,7 +201,7 @@ img#reverse {
 }
 
 .referee div.list h1 {
-    background-color: #BBCB96;
+    background-color: #cc99cc;
 }
 
 .box div.meetings {
@@ -523,9 +535,9 @@ div.list h3 {
     font: 1.3em/33px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
      
     /*Fancy CSS3 Styles*/
-    background: linear-gradient(top, #e3e3e3, #c9c9c9);
+    background: linear-gradient(top, #A4A4A4, #071918);
     border-radius: 25px;
-    box-shadow: 0 2px 0 #c9c9c9;
+    box-shadow: 0 1px 0 #c9c9c9;
     text-shadow: 0 2px 2px rgba(255, 200, 247, 0.2);
      
 }
@@ -534,6 +546,14 @@ div.list h3 {
 a.button {
     text-decoration: none;
     padding-top: 0.2em;
+}
+
+/**************************
+*    Confetti
+***************************/
+
+#confetti {
+    z-index: -1;
 }
 
 /**************************

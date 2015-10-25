@@ -9,6 +9,5 @@ $(document).ready(function() {
 
 function goToByScroll(id){
 	//Scroll
-	console.log($('#' + id).offset().top)
 	$("html,body").animate({ scrollTop: $('#' + id).offset().top - 160}, 'slow');
 };
