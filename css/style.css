@@ -26,6 +26,8 @@ div.menubar {
     min-width: 100%;
     min-height: 3em;
     background-color: white;
+    background-image: url("../images/crayon.png");
+    background-repeat: repeat-x;
     border-bottom: 1pt solid black;
     display: flex;
     flex-flow: row wrap;
@@ -34,6 +36,7 @@ div.menubar {
     align-items: center;
     line-height: 1.3em;
     position: fixed;
+    padding-top: 10px;
 }
 
 
