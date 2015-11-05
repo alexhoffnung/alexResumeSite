@@ -9,10 +9,10 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: center;
-    align-items: center;
+    align-items: flex-start;
     line-height: 1.3em;
     background-image: url("../images/background.jpg");
-    background-size: 350px 300px;
+    background-size: 350px 350px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -109,13 +109,12 @@ img#reverse {
     order: 1;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: #5AED2C;
-    margin: 10px 20px 10px 20px;
-    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 15px;
-    outline: 5px solid white;
 }
 
 .education div.list h1 {
@@ -126,11 +125,12 @@ img#reverse {
     order: 2;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: #98dafc;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
 }
 
 .research div.list h1 {
@@ -141,11 +141,12 @@ img#reverse {
     order: 3;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: yellow;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
 }
 
 .work div.list h1 {
@@ -160,11 +161,12 @@ img#reverse {
     order: 4;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: #9fa8a3;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
 }
 
 .teaching div.list h1 {
@@ -176,11 +178,12 @@ img#reverse {
     order: 5;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: #fae596;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
 }
 
 .grants div.list h1 {
@@ -191,22 +194,24 @@ img#reverse {
     order: 6;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: #AD855C;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
 }
 
 .box div.referee {
     order: 7;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: #836D91;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
 }
 
 .referee div.list h1 {
@@ -217,11 +222,12 @@ img#reverse {
     order: 8;
     flex: 0 1 auto;
     align-self: auto;
-    width: 300px;
+    width: 350px;
     min-height: auto;
     background-color: #6C95B5;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
 }
 
 .meetings div.list h1 {
@@ -508,6 +514,12 @@ div.paper {
     padding-bottom: 1em;
 }
 
+div.list-container {
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 0 20px 20px 20px;
+}
+
 div.list div {
     margin-bottom: 0.7em;
     padding: 20px;
@@ -516,7 +528,7 @@ div.list div {
 }
 
 div.list h1 {
-    font-weight: 300;
+    font-weight: 350;
     background-color: white;
     padding: 15px;
     text-align: center;
@@ -537,7 +549,7 @@ div.list h3 {
     /*Basic Button Styles*/
     display: block;
     height: 40px;
-    width: 230px;
+    width: 170px;
     background: #e3e3e3;
     border: 2px solid rgba(33, 68, 72, 0.59);
     margin: 0 20px 0 20px;
