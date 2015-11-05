@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('div.menubox > a').click(function(e) {
+	$('nav a').click(function(e) {
 		//Prevent a page reload when a link is pressed
 		e.preventDefault();
 		//Call the scroll function
@@ -9,5 +9,5 @@ $(document).ready(function() {
 
 function goToByScroll(id){
 	//Scroll
-	$("html,body").animate({ scrollTop: $('#' + id).offset().top - 40}, 'slow');
+	$("html,body").animate({ scrollTop: $(id).offset().top - 50 }, 'slow');
 };

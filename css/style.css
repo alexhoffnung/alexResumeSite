@@ -33,25 +33,35 @@ nav {
     background-color: white;
     background-image: url("../images/crayon.png");
     background-repeat: repeat;
-    border: 1px solid black;
 }
 
 .navbar {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.navbar-brand {
+.navbar>.container-fluid .navbar-brand {
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+.navbar-toggle {
+    background-color: #e3e3e3;
+    margin-top: 20px;
+}
+
+.navbar li {
     background-color: #e3e3e3;
     border-radius: 10px;
     margin: 10px;
 }
 
-.navbar-toggle {
-    background-color: #e3e3e3;
+.icon-bar {
+    background-color: #337ab7;
 }
 
-.navbar li {
-    background-color: #e3e3e3;
+.navbar-nav>li>a:hover {
+    border-radius: 15px;
 }
 
 /**************************
@@ -493,7 +503,7 @@ div.current {
     line-height: 1.3em;
     margin-left: 10%;
     margin-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 div.current p {
