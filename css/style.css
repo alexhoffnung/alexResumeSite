@@ -112,8 +112,10 @@ img#reverse {
     width: 300px;
     min-height: auto;
     background-color: #5AED2C;
-    margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    outline: 5px solid white;
 }
 
 .education div.list h1 {
@@ -143,7 +145,11 @@ img#reverse {
     min-height: auto;
     background-color: yellow;
     margin: 0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 10px 10px;
+}
+
+.work div.list h1 {
+    background-color: #99cccc;
 }
 
 #record {
@@ -443,6 +449,7 @@ div.current {
     align-items: center;
     line-height: 1.3em;
     margin-left: 10%;
+    margin-bottom: 20px;
 }
 
 div.current p {
@@ -450,7 +457,7 @@ div.current p {
 }
 
 div.current p:first-child {
-    padding-top: 225px;
+    padding-top: 125px;
 }
 
 div#a100 {
@@ -503,6 +510,9 @@ div.paper {
 
 div.list div {
     margin-bottom: 0.7em;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
 }
 
 div.list h1 {
