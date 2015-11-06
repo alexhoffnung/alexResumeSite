@@ -43,6 +43,9 @@ nav {
     background-color: #e3e3e3;
     border-radius: 10px;
     margin: 10px 20px 10px 20px;
+    font-weight: 200;
+    font-size: 2.0rem;
+    border: 1pt solid #337ab7;
 }
 
 .navbar-toggle {
@@ -53,7 +56,10 @@ nav {
 .navbar li {
     background-color: #e3e3e3;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 20px;
+    border: 1pt solid #337ab7;
+    font-weight: 200;
+    font-size: 2.0rem;
 }
 
 .icon-bar {
@@ -158,14 +164,14 @@ img#reverse {
     align-self: auto;
     width: 350px;
     min-height: auto;
-    background-color: #5AED2C;
+    background-color: #20d412;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
 }
 
 .education div.list h1 {
-    background-color: white;
+    background-color: #e9fde8;
 }
 
 .box div.research {
@@ -181,7 +187,7 @@ img#reverse {
 }
 
 .research div.list h1 {
-    background-color: #daad86;
+    background-color: #6d91b6;
 }
 
 .box div.work {
@@ -190,14 +196,14 @@ img#reverse {
     align-self: auto;
     width: 350px;
     min-height: auto;
-    background-color: yellow;
+    background-color: #ace3e3;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
 }
 
 .work div.list h1 {
-    background-color: #99cccc;
+    background-color: #e5f6f6;
 }
 
 #record {
@@ -210,14 +216,14 @@ img#reverse {
     align-self: auto;
     width: 350px;
     min-height: auto;
-    background-color: #9fa8a3;
+    background-color: #d9cfd4;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
 }
 
 .teaching div.list h1 {
-    background-color: #c5d5cb;
+    background-color: #cfd9d4;
 }
 
 
@@ -234,7 +240,7 @@ img#reverse {
 }
 
 .grants div.list h1 {
-    background-color: #3fb0ac;
+    background-color: #e7e3d3;
 }
 
 .box div.publications {
@@ -247,6 +253,10 @@ img#reverse {
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     border-radius: 15px;
+}
+
+.publications div.list h1 {
+    background-color: #ad995c;
 }
 
 .box div.referee {
@@ -262,7 +272,7 @@ img#reverse {
 }
 
 .referee div.list h1 {
-    background-color: #cc99cc;
+    background-color: #9b02fc;
 }
 
 .box div.meetings {
@@ -278,7 +288,7 @@ img#reverse {
 }
 
 .meetings div.list h1 {
-    background-color: #FFE391;
+    background-color: #9fbacf;
 }
 
 
@@ -552,6 +562,19 @@ div#mountainThin {
     background-position-y: top;
     min-height: 100px;
     border: 1pt solid black;
+}
+
+/**************************
+*    Border
+***************************/
+
+.thin-border {
+    border: 1pt solid black;
+    background-color: white;
+    background-image: url("../images/crayon.png");
+    background-repeat: repeat;
+    height: 25px;
+    width: 100%;
 }
 
 /**************************
