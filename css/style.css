@@ -170,8 +170,9 @@ img#reverse {
     border-radius: 15px;
 }
 
-.education div.list h1 {
+.education button, .education button:hover {
     background-color: #e9fde8;
+    border-color: #e9fde8;
 }
 
 .box div.research {
@@ -186,8 +187,9 @@ img#reverse {
     border-radius: 15px;
 }
 
-.research div.list h1 {
+.research button, .research button:hover {
     background-color: #6d91b6;
+    border-color: #6d91b6;
 }
 
 .box div.work {
@@ -202,8 +204,9 @@ img#reverse {
     border-radius: 15px;
 }
 
-.work div.list h1 {
+.work button, .work button:hover {
     background-color: #e5f6f6;
+    border-color: #e5f6f6;
 }
 
 #record {
@@ -222,10 +225,10 @@ img#reverse {
     border-radius: 15px;
 }
 
-.teaching div.list h1 {
+.teaching button, .teaching button:hover {
     background-color: #cfd9d4;
+    border-color: #cfd9d4;
 }
-
 
 .box div.grants {
     order: 5;
@@ -239,8 +242,9 @@ img#reverse {
     border-radius: 15px;
 }
 
-.grants div.list h1 {
+.grants button, .grants button:hover {
     background-color: #e7e3d3;
+    border-color: #e7e3d3;
 }
 
 .box div.publications {
@@ -255,8 +259,10 @@ img#reverse {
     border-radius: 15px;
 }
 
-.publications div.list h1 {
+.publications button, .publications button:hover {
     background-color: #ad995c;
+    border-color: #ad995c;
+    margin-bottom: 15px;
 }
 
 .box div.referee {
@@ -271,8 +277,10 @@ img#reverse {
     border-radius: 15px;
 }
 
-.referee div.list h1 {
+.referee button, .referee button:hover {
     background-color: #9b02fc;
+    border-color: #9b02fc;
+    margin-bottom: 15px;
 }
 
 .box div.meetings {
@@ -287,10 +295,10 @@ img#reverse {
     border-radius: 15px;
 }
 
-.meetings div.list h1 {
+.meetings button, .meetings button:hover {
     background-color: #9fbacf;
+    border-color: #9fbacf;
 }
-
 
 /**************************
 *    Contact
@@ -609,6 +617,22 @@ div.list h1 {
 div.list h3 {
     font-weight: 100;
     margin-bottom: 0.4em;
+}
+
+/**************************
+*    Modal Buttons
+***************************/
+
+.box button {
+    border-radius: 25px;
+    width: 288px;
+    font-size: 3.5rem;
+    color: black;
+    margin-top: 20px;
+}
+
+.box button:hover {
+    color: black;
 }
 
 /**************************

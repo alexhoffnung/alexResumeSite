@@ -125,7 +125,8 @@
   <div class="education">
   <div class="list-container">
   <div class="list">
-  <h1>Education</h1>
+    <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#educationModal">Education</button>
   
   <h3>University of California, Riverside</h3>
     <div>&rarr; Ph.D. Mathematics, 2010</div>
@@ -151,7 +152,9 @@
   <div class="work">  
   <div class="list-container">
   <div class="list">
-    <h1>Work</h1>
+        <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#workModal">Work</button>
+  
   
     <h3>Historical Bicycle Tour Guide</h3>
       <div>&rarr; Central Park, New York City</div> 
@@ -174,7 +177,8 @@
   <div class="grants">
   <div class="list-container">
   <div class="list">
-  <h1>Grants &amp; Awards</h1>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#grantsModal">Grants &amp; Awards</button>
   
     <h3>FQXi Foundational Questions Institute Grant w. J. Baez (P.I.), 2009</h3>
       <div>&rarr; Categorifying Fundamental Physics</div>
@@ -205,7 +209,8 @@
   <div class="teaching">
   <div class="list-container">
   <div class="list">
-  <h1>Teaching</h1>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#teachingModal">Teaching</button>
   
     <h3>Temple University</h3>
       <div>&rarr; calculus</div> 
@@ -251,7 +256,8 @@
   <div class="research">
   <div class="list-container">
   <div class="list">
-    <h1>Research</h1>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#researchModal">Research</button>
   
     <h3>Temple University</h3>
       <div>&rarr; Visiting Assistant Professor, 2012-2014</div>
@@ -275,7 +281,8 @@
   <div class="publications">
   <div class="list-container">
   <div class="list">
-    <h1>Publications</h1>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#publicationsModal">Publications</button>
   
     <div class="paper">
     <a href="http://arxiv.org/abs/1406.1751" style="color:#FAF4E6">What do homotopy algebras form?</a>, w. V. Dolgushev and C. Rogers, <em>Advances in Mathematics</em> (to appear).
@@ -319,7 +326,8 @@
   <div class="referee">
   <div class="list-container">
   <div class="list">
-  <h1>Referee Work</h1>
+    <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#refereeModal">Referee Work</button>
     <p>Communications in Mathematical Physics</p>
     <p>Journal of Mathematical Physics</p>
     <p>Journal of the London Mathematical Society</p>
@@ -340,7 +348,8 @@
   <div class="meetings">
   <div class="list-container">
   <div class="list">
-  <h1>Meetings Organized</h1>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#meetingsModal">Meetings</button>
   
     <h3>Small Workgroup on Categorification and Topological Invariants</h3>
       <div>&rarr; Centre International des Rencontres Mathematiques (CIRM), Luminy, FR</div> 
@@ -396,6 +405,166 @@
   <div class="email"><a href="mailto:alex.hoffnung@gmail.com">alex.hoffnung@gmail.com</a></div>
   <div class="github"><a id="box-link" href="https://github.com/alexhoffnung"></a></div>
 </div> 
+
+  <!-- Education Modal -->
+  <div class="modal fade" id="educationModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my education</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Work Modal -->
+  <div class="modal fade" id="workModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my work experience</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Teaching Modal -->
+  <div class="modal fade" id="teachingModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my teaching</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grants Modal -->
+  <div class="modal fade" id="grantsModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my grants</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Research Modal -->
+  <div class="modal fade" id="researchModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my research</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Publications Modal -->
+  <div class="modal fade" id="publicationsModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my publications</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Referee Modal -->
+  <div class="modal fade" id="refereeModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my referee work</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Meetings Modal -->
+  <div class="modal fade" id="meetingsModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About my meetings</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html> 
