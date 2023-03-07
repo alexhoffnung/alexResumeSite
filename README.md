@@ -1,2 +1,1 @@
-# alexhoffnung.github.io
-for git pages
+An old resume website built in Meteor.
